@@ -66,7 +66,7 @@
 /*nav design ends here */
 
 .banner-container{
-    border: 1px solid tomato;
+
     margin: 50px auto 0;
     max-width: 1400px;
     display: flex;
@@ -94,6 +94,8 @@
     line-height: normal;
     text-transform: uppercase;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 .para{
